@@ -1,8 +1,8 @@
 <?php
 /*
- *	Made by Samerton
+ *  Made by Samerton
  *  https://github.com/NamelessMC/Nameless/
- *  NamelessMC version 2.0.0-pr3
+ *  NamelessMC version 2.0.0-pr6
  *
  *  License: MIT
  *
@@ -28,8 +28,8 @@ $language = array(
 	'dashboard' => 'Dashboard',
 	'configuration' => 'Configuration',
 	'layout' => 'Layout',
-	'user_management' => 'User Management',
-	'admin_cp' => 'AdminCP',
+	'user_management' => 'Benutzerverwaltung',
+	'admin_cp' => 'Administration',
 	'administration' => 'Administration',
 	'overview' => 'Übersicht',
 	'core' => 'Core',
@@ -45,12 +45,12 @@ $language = array(
 	'running_nameless_version' => 'Forum läuft auf der Version <strong>{x}</strong>', // Don't replace "{x}"
 	'running_php_version' => 'Laufende PHP version <strong>{x}</strong>', // Don't replace "{x}"
 	'statistics' => 'Statistiken',
-	'registrations' => 'Registrations',
-	'topics' => 'Topics',
+	'registrations' => 'Anmeldungen',
+	'topics' => 'Themen',
 	'posts' => 'Posts',
-    'notices' => 'Ereignisse',
-    'no_notices' => 'Keine Ereignisse.',
-    'email_errors_logged' => 'Fehler bei der Email wurden gespeichert',
+    	'notices' => 'Ereignisse',
+    	'no_notices' => 'Keine Ereignisse.',
+    	'email_errors_logged' => 'Fehler bei der Email wurden gespeichert',
 
 	// Core
 	'settings' => 'Einstellungen',
@@ -565,13 +565,13 @@ $language = array(
 	'allowed_proxies_info' => 'Zeilenweise Liste der erlaubten Proxy-IPs.',
 
 	// Error logs
-	'error_logs' => 'Fehöer Logs',
-	'notice_log' => 'Notice log',
-	'warning_log' => 'Warning log',
-	'custom_log' => 'Custom log',
-	'other_log' => 'Other log',
-	'fatal_log' => 'Fatal log',
-	'log_file_not_found' => 'Log file wurde nicht gefunden.',
+	'error_logs' => 'Fehler Protokolle',
+	'notice_log' => 'Notice Protokolle',
+	'warning_log' => 'Warnung Protokolle',
+	'custom_log' => 'Sonstige Protokolle',
+	'other_log' => 'Andere Protokolle',
+	'fatal_log' => 'Fatale Protokolle',
+	'log_file_not_found' => 'Log-Datei nicht gefunden.',
 	'log_purged_successfully' => 'Das Protokoll wurde erfolgreich gelöscht.',
 
 	// Hooks
@@ -579,9 +579,9 @@ $language = array(
 	'discord_hooks_info' => 'Sende eine Nachricht an einen Discord-Kanal, wenn auf deiner Website etwas passiert. Erstelle einen Discord-Hook in deinem Discord Server Settings -> Webhooks Tab.',
 	'discord_hook_url' => 'Discord webhook URL',
 	'discord_hook_events' => 'Aktiviert Discord Hook-Ereignisse (Strg + Klick zum Auswählen mehrerer Ereignisse)',
-	'register_hook_info' => 'User Registration',
-	'validate_hook_info' => 'User Verifizierung',
-	'delete_hook_info' => 'User deletion',
+	'register_hook_info' => 'Benutzer Anmledung',
+	'validate_hook_info' => 'Benutzer Verifizierung',
+	'delete_hook_info' => 'Benutzer Löschung',
 
 	// Sitemap
 	'unable_to_load_sitemap_file_x' => 'Die Sitemap-Datei {x} konnte nicht geladen werden', // Don't replace {x}
@@ -604,7 +604,7 @@ $language = array(
 	// Dashboard
 	'total_users' => 'Gesamtbenutzer',
 	'total_users_statistic_icon' => '<i class="fas fa-users"></i>',
-	'recent_users' => 'New Users',
+	'recent_users' => 'Neue Benutzer',
 	'recent_users_statistic_icon' => '<i class="fas fa-users"></i>',
 	'average_players' => 'Average Players',
 	'nameless_news' => 'NamelessMC Neuigkeiten',
@@ -616,6 +616,6 @@ $language = array(
 	// Other
 	'source' => 'Source',
 	'support' => 'Support',
-	'admin_dir_still_exists' => 'Warning! The <strong>modules/Core/pages/admin</strong> directory still exists. Please remove this directory.',
-	'mod_dir_still_exists' => 'Warning! The <strong>modules/Core/pages/mod</strong> directory still exists. Please remove this directory.'
+	'admin_dir_still_exists' => 'Achtung! Das Verzeichnis <strong>modules/Core/pages/admin</strong> existiert. Bitte entferne dieses Verzeichnis.',
+	'mod_dir_still_exists' => 'Achtung! Das Verzeichnis <strong>modules/Core/pages/mod</strong> existiert. Bitte entferne dieses Verzeichnis.'
 );
